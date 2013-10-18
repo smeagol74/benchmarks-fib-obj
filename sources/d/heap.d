@@ -27,10 +27,8 @@ class Fib
 
 int main()
 {
-	for (int i = 0; i < 10; i++)
-	{
-		scope Fib x = new Fib(40);
-		writefln("n=", x.value);
-	}
+	scope Fib x = new Fib(40);
+	writefln("n=%d", x.value);
+
 	return 0;
 }

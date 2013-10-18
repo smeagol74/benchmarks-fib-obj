@@ -1,5 +1,5 @@
 #!/bin/bash
 
-g++ -O3 fib-obj-heap.cpp || exit
+g++ -O3 heap.cpp || exit
 time ./a.out
 
