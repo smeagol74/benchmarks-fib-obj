@@ -1,3 +1,5 @@
+// http://www.balancer.ru/g/p1618864
+
 class Fib
 {
     private final int _value;

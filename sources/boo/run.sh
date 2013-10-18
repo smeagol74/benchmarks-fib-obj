@@ -1,6 +1,6 @@
 #!/bin/bash
 
-booc Fib.boo
+booc Fib.boo || exit
 time mono Fib.exe
 time mono Fib.exe
 time mono Fib.exe

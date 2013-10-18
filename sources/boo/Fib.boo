@@ -12,4 +12,6 @@ class Fib:
 
 		return Fib(_value - 1).value() + Fib(_value - 2).value()
 
-print Fib(40).value()
+print "Result = ", Fib(40).value()
+
+

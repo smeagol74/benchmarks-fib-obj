@@ -1,6 +1,7 @@
 #!/bin/bash
 
-booc Fib.boo || exit
-time mono Fib.exe
-time mono Fib.exe
-time mono Fib.exe
+time python fib.py
+time python fib.py
+time python fib.py
+
+

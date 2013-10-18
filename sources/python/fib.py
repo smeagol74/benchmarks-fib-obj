@@ -1,3 +1,5 @@
+# http://www.balancer.ru/g/p1618868
+
 class Fib:
     def __init__(self, n):
         self._value = n
@@ -11,4 +13,4 @@ class Fib:
 
         return f1.value() + f2.value()
 
-print Fib(35).value()
+print Fib(40).value()
