@@ -1,3 +1,5 @@
+// http://www.balancer.ru/g/p1818565
+
 #include <stdio.h>
 #include <boost/pool/singleton_pool.hpp>
 
