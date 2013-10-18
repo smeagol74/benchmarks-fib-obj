@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo Compile...
+scalac fib.scala || exit
+echo Go...
+time java -cp '.:/usr/share/java/*' FibTest
