@@ -19,7 +19,7 @@ class FibObj
 
     static Void main(Str[] argv)
     {
-        for(Int i:=0; i<10; i++)
+        for(Int i:=0; i<100; i++)
         {
             FibObj x := FibObj(40)
             echo(x.value())
