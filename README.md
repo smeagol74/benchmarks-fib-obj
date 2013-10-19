@@ -4,6 +4,8 @@
 Подробнее об истории теста и старых результатах см. на
 [Форумах Balancer'а](http://www.balancer.ru/tech/forum/2008/08/t63003--proizvoditelnost-yazykov-obektnyj-fibonachchi.html)
 
+Кому лениво читать, см. сразу ***[Результаты тестов](https://github.com/Balancer/benchmarks-fib-obj/wiki/Результат-теста:-i3-2.2ГГц)***
+
 Что это такое
 -------------
 
