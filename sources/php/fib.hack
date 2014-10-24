@@ -9,16 +9,16 @@ class Fib
     var $value;
     function __construct(int $n): int
     {
-        $this->_value = $n;
+        $this->value = $n;
     }
 
     function value(): int
     {
-        if($this->_value <= 2)
+        if($this->value <= 2)
             return 1;
 
-        $f1 = new Fib($this->_value - 1);
-        $f2 = new Fib($this->_value - 2);
+        $f1 = new Fib($this->value - 1);
+        $f2 = new Fib($this->value - 2);
 
         return $f1->value() + $f2->value();
     }
