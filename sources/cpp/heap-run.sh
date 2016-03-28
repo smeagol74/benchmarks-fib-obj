@@ -3,3 +3,4 @@
 g++ -O3 heap.cpp || exit
 time ./a.out
 
+rm a.out
