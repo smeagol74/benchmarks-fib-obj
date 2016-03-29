@@ -1,5 +1,5 @@
 struct Fib {
-	val: u32,
+	val: u32
 }
 
 impl Fib {
@@ -12,14 +12,14 @@ impl Fib {
 			return 1;
 		}
 
-		return Fib::new(self.val - 1).value() + Fib::new(self.val - 2).value();
+		Fib::new(self.val - 1).value() + Fib::new(self.val - 2).value()
 	}
 
 }
 
 fn main() {
 	for _ in 0..10 {
-		println!("{}", Fib::new(40).value());
+		println!("{}", Fib::new(40).value())
 	}
 }
 
