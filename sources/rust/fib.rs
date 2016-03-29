@@ -18,7 +18,7 @@ impl Fib {
 }
 
 fn main() {
-	for _ in 0..3 {
+	for _ in 0..10 {
 		println!("{}", Fib::new(40).value());
 	}
 }

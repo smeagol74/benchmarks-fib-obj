@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rustc fib.rs
+rustc -O fib.rs
 
 time ./fib
 
