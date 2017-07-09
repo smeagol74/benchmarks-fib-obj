@@ -1,6 +1,9 @@
 #!/bin/bash
 
 g++ -O3 heap.cpp || exit
-time ./a.out
+
+source ../../_report.bash
+
+benchmark ./a.out 1 3 "C++ (heap)"
 
 rm a.out

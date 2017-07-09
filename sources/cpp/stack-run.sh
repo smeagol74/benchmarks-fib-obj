@@ -1,6 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 g++ -O3 stack.cpp || exit
-time ./a.out
+
+source ../../_report.bash
+
+benchmark ./a.out 2 10 "C++ (stack)"
 
 rm a.out
